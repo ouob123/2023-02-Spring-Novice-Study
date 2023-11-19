@@ -12,10 +12,12 @@ public class IndexController {
 
     private final PostsService postsService;
 
+    /*
     @GetMapping("/")
     public String index() {
         return "index";
     }
+    */
 
     @GetMapping("/posts/save")
     public String postsSave() {
